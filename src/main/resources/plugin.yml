@@ -1,0 +1,17 @@
+name: Pl3xMap-SuperVanish
+version: 1.0.1
+main: xyz.srnyx.pl3xmapsupervanish.Pl3xMapSuperVanish
+api-version: '1.19'
+load: POSTWORLD
+authors:
+  - srnyx
+  - dzibebo
+description: Hide players vanished with SuperVanish/PremiumVanish on Pl3xMap
+website: https://github.com/dzibebo/Pl3xMap-SuperVanish
+folia-supported: true
+depend:
+  - Pl3xMap
+softdepend:
+  - SuperVanish
+  - PremiumVanish
+

@@ -1,23 +1,26 @@
 # Pl3xMap-SuperVanish
 
-Hide players from Pl3xMap whenever they vanish using SuperVanish, then show them again when they unvanish
+A lightweight, high-performance Minecraft plugin that hides players vanished with **SuperVanish** or **PremiumVanish** from **Pl3xMap**.
 
-**🐛 Bugs / 💡 Suggestions:** Please [open an issue](https://github.com/srnyx/pl3xmap-supervanish/issues/new/choose) to report a bug or suggest an idea
+## Features
 
-**🆘 Support:** Please [join the Discord](https://srnyx.com/discord) to get support
+- **Instant updates**: Automatically hides players on Pl3xMap when vanished and restores visibility upon un-vanishing.
+- **Zero bloat**: No telemetry, no background update checkers, no external network requests.
+- **Modern platform support**: Fully compatible with Spigot, Paper, Purpur, Gale, Leaf, and Folia on Java 17, 21, and modern GraalVM.
 
-## Download
+## Requirements
 
-**✅ Stable:** You can download the latest **stable** version at [Modrinth](https://modrinth.com/plugin/pl3xmap-supervanish), [Hangar](https://hangar.papermc.io/srnyx/Pl3xMap-SuperVanish), [Spigot](https://spigotmc.org/resources/117638), [Bukkit](https://dev.bukkit.org/projects/pl3xmap-supervanish), or [GitHub](https://github.com/srnyx/pl3xmap-supervanish/releases) (more may come soon)
+- Minecraft Server: **1.19.4+** (Paper / Purpur / Leaf / Folia recommended)
+- [Pl3xMap](https://modrinth.com/plugin/pl3xmap)
+- [SuperVanish](https://www.spigotmc.org/resources/supervanish-invisible-invisible.1331/) or [PremiumVanish](https://www.spigotmc.org/resources/premiumvanish-stay-hidden-bungee-support.14404/)
 
-**🚧 Snapshot:** You can download the latest **snapshot** version at [github.com/srnyx/pl3xmap-supervanish/actions/workflows/build.yml](https://github.com/srnyx/pl3xmap-supervanish/actions/workflows/build.yml)
+## Building
 
-# Wiki
+```bash
+./gradlew build
+```
+The compiled jar will be located in `build/libs/`.
 
-For all information about the plugin (commands, permissions, etc...) please see the wiki at [github.com/srnyx/pl3xmap-supervanish/wiki](https://github.com/srnyx/pl3xmap-supervanish/wiki)
+## License
 
-### not sponsors, just cool stuff :)
-
-[![Lilypad server hosting](https://srnyx.com/assets/banners/lilypad.png)](https://srnyx.com/lilypad?utm_medium=listing&utm_content=lilypad&utm_source=github&utm_campaign=pl3xmap-supervanish)
-[![Review me on TrustPilot!](https://srnyx.com/assets/banners/reviewme.png)](https://srnyx.com/review?utm_medium=listing&utm_content=review&utm_source=github&utm_campaign=pl3xmap-supervanish)
-[![Host events on Event Alerts](https://srnyx.com/assets/banners/eventalerts.png)](https://eventalerts.gg?utm_medium=listing&utm_content=eventalerts&utm_source=github&utm_campaign=pl3xmap-supervanish)
+This project is licensed under the [MIT License](LICENSE).
