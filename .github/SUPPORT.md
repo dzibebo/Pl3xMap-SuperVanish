@@ -1,1 +1,0 @@
-If you're looking for support with the project, please ask in the Discord server.

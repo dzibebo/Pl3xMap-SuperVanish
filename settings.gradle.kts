@@ -1,6 +1,6 @@
 pluginManagement.repositories {
-    maven("https://repo.srnyx.com/snapshots/")
     gradlePluginPortal()
+    mavenCentral()
 }
 
 rootProject.name = "Pl3xMap-SuperVanish"

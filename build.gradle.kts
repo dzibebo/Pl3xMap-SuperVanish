@@ -5,7 +5,7 @@ plugins {
 
 group = "xyz.srnyx"
 version = "1.0.1"
-description = "Hide players vanished with SuperVanish on Pl3xMap"
+description = "Hide players vanished with SuperVanish or PremiumVanish on Pl3xMap"
 
 java {
     toolchain {
